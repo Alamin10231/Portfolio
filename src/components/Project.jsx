@@ -4,6 +4,7 @@ import surbicehub from "../assets/ServiceHub.jpg";
 import greenpath from "../assets/greenpathexplorer.jpg";
 import jobportal from "../assets/jobportal.jpg";
 import GadgetHeaven from "../assets/GadgetHeaven.jpg";
+import movienest from "../assets/movienest.jpg";
 
 const projects = [
   {
@@ -30,6 +31,12 @@ const projects = [
     description: "An e-commerce platform for the latest gadgets.",
     image: GadgetHeaven,
     link: "https://fascinating-taffy-3e2fb5.netlify.app/",
+  },
+  {
+    title: "Movie Nest",
+    description: "An movie site platform for the movie lover.",
+    image: movienest,
+    link: "https://movienest-1d035.web.app/",
   },
 ];
 
