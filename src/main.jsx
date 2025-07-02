@@ -7,8 +7,9 @@ import MainLayout from "./components/MainLayout/MainLayout.jsx";
 import Home from "./components/Home.jsx";
 import Contact from "./components/Contact.jsx";
 import About from "./components/About.jsx";
-import Projects from "./components/Project.jsx";
+// import Projects from "./components/Project.jsx";
 import Education from "./components/EducationData.jsx";
+import Projects from "./components/Projects.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
         element: <About></About>,
       },
       {
-        path: "/project",
+        path: "Projects",
         element: <Projects></Projects>,
       },
       {
